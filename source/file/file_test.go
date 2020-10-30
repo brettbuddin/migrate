@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	st "github.com/golang-migrate/migrate/v4/source/testing"
+	st "github.com/brettbuddin/migrate/v4/source/testing"
 )
 
 func Test(t *testing.T) {

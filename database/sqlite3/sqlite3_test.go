@@ -10,9 +10,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/golang-migrate/migrate/v4"
-	dt "github.com/golang-migrate/migrate/v4/database/testing"
-	_ "github.com/golang-migrate/migrate/v4/source/file"
+	"github.com/brettbuddin/migrate/v4"
+	dt "github.com/brettbuddin/migrate/v4/database/testing"
+	_ "github.com/brettbuddin/migrate/v4/source/file"
 	_ "github.com/mattn/go-sqlite3"
 )
 
